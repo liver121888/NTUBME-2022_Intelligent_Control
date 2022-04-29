@@ -148,18 +148,44 @@
 
 ### Modified Setup
 
+
 #### Model
+
+![](Figures/P2_Modified_Setup_Model.png)
+
 
 #### Hyperparameter
 
+| **Item** | **Value** |
+|-----------|----------|
+| **Optimize**   | Adam    |
+| **validation_split** | 0.2    |
+| **epochs**   | 100    |
+| **batch_size**   | 128    |
+
 #### Accuracy Train History
 
-![](Figures/)
+![](Figures/P2_Modified_Setup_ACC_TrainHistory.jpg)
 
 #### Loss Train History
 
-![](Figures/)
+![](Figures/P2_Modified_Setup_LOSS_TrainHistory.jpg)
 
 #### Test Accuracy
 
+0.8543000221252441
+
 #### Confusion Matrix
+
+|label|0|1|2|3|4|5|6|7|8|9|
+|---|---|---|---|---|---|---|---|---|---|---|
+|0|870|25|7|10|6|0|4|8|17|53|
+|1|2|944|0|1|0|0|0|0|1|52|
+|2|56|9|750|35|39|13|54|19|3|22|
+|3|7|10|23|747|25|53|54|22|11|48|
+|4|7|2|29|16|842|8|40|44|2|10|
+|5|7|6|15|115|18|734|43|25|5|32|
+|6|4|6|7|9|8|1|945|3|3|14|
+|7|9|7|7|12|14|15|8|896|2|30|
+|8|49|41|4|1|1|0|4|0|865|35|
+|9|5|39|0|0|1|1|1|1|2|950|
