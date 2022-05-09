@@ -80,19 +80,34 @@
 
 ### Modified Setup
 
+- Replacing all "relu" activation with "elu" could increase accuracy to 0.9933.
+- Adding another hiden layer with 64 unit doesn't seems to help.
+- Reducing dropout rate also has no positive effect.
+
 #### Model
+
+![](Figures/P1_Mod_Model.png)
 
 #### Hyperparameter
 
+| **Item** | **Value** |
+|-----------|----------|
+| **Optimize**   | Adam    |
+| **validation_split** | 0.2    |
+| **epochs**   | 20    |
+| **batch_size**   | 300    |
+
 #### Accuracy Train History
 
-![](Figures/)
+![](Figures/P1_Mod_Accu.png)
 
 #### Loss Train History
 
-![](Figures/)
+![](Figures/P1_Mod_loss.png)
 
 #### Test Accuracy
+
+0.9933000206947327
 
 #### Confusion Matrix
 
