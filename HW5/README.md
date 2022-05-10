@@ -174,6 +174,9 @@
 
 ### Modified Setup
 
+- Change Model structure.
+- Data augmentation, including rotation, flip, shift and zoom.
+- Train for more epochs.
 
 #### Model
 
