@@ -1,5 +1,7 @@
 # IC HW5
 
+B07611001 Li-Wei Yang, B07611002 Po-Sheng Cheng, B07611016 Ping-Jian Huang 
+
 - [IC HW5](#ic-hw5)
   - [Problem 1](#problem-1)
     - [Original Setup](#original-setup)
