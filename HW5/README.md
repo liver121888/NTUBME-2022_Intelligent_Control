@@ -45,7 +45,7 @@
 
 | **Item** | **Value** |
 |-----------|----------|
-| **Optimize**   | Adam    |
+| **Optimizer**   | Adam    |
 | **validation_split** | 0.2    |
 | **epochs**   | 20    |
 | **batch_size**   | 300    |
@@ -81,7 +81,7 @@
 ### Modified Setup
 
 - Replacing all "relu" activation with "elu" could increase accuracy to 0.9933.
-- Adding another hiden layer with 64 unit doesn't seems to help.
+- Adding another hidden layer with 64 unit doesn't seems to help.
 - Reducing dropout rate also has no positive effect.
 
 #### Model
@@ -92,18 +92,18 @@
 
 | **Item** | **Value** |
 |-----------|----------|
-| **Optimize**   | Adam    |
+| **Optimizer**   | Adam    |
 | **validation_split** | 0.2    |
 | **epochs**   | 20    |
 | **batch_size**   | 300    |
 
 #### Accuracy Train History
 
-![](Figures/P1_Mod_Accu.png)
+![](Figures/P1_Mod_Accu.jpg)
 
 #### Loss Train History
 
-![](Figures/P1_Mod_loss.png)
+![](Figures/P1_Mod_loss.jpg)
 
 #### Test Accuracy
 
