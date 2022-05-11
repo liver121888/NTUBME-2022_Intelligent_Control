@@ -33,7 +33,7 @@ B07611001 Li-Wei Yang, B07611002 Po-Sheng Cheng, B07611016 Ping-Jian Huang
       - [Loss Train History](#loss-train-history-3)
       - [Test Accuracy](#test-accuracy-3)
       - [Confusion Matrix](#confusion-matrix-3)
-      - [Non-programing problems](#non-programing-problems)
+  - [Non-programing Problems](#non-programing-problems)
 
 
 ## Problem 1
@@ -222,7 +222,7 @@ B07611001 Li-Wei Yang, B07611002 Po-Sheng Cheng, B07611016 Ping-Jian Huang
 |8|49|41|4|1|1|0|4|0|865|35|
 |9|5|39|0|0|1|1|1|1|2|950|
 
-#### Non-programing problems
+## Non-programing Problems
 
 **Explain the function of convolution layer, pooling layer and fully connected layer in CNN model. Please attach your result with the discussion.**
 
