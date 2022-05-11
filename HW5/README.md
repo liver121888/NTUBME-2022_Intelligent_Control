@@ -33,6 +33,7 @@ B07611001 Li-Wei Yang, B07611002 Po-Sheng Cheng, B07611016 Ping-Jian Huang
       - [Loss Train History](#loss-train-history-3)
       - [Test Accuracy](#test-accuracy-3)
       - [Confusion Matrix](#confusion-matrix-3)
+      - [Non-programing problems](#non-programing-problems)
 
 
 ## Problem 1
@@ -220,3 +221,25 @@ B07611001 Li-Wei Yang, B07611002 Po-Sheng Cheng, B07611016 Ping-Jian Huang
 |7|9|7|7|12|14|15|8|896|2|30|
 |8|49|41|4|1|1|0|4|0|865|35|
 |9|5|39|0|0|1|1|1|1|2|950|
+
+#### Non-programing problems
+
+**Explain the function of convolution layer, pooling layer and fully connected layer in CNN model. Please attach your result with the discussion.**
+
+Convolution layer（卷積層）： 
+
+_The major building blocks used in CNNs._
+	
+A convolution is the simple application of a filter to an input that results in an activation. Repeated application of the same filter to an input results in a map of activations called a feature map, indicating the locations and strength of a detected feature in an input, such as an image.
+
+Pooling layer（池化層）：
+
+_Summarize the presence of features in an input image._
+
+Pooling layers provide an approach to down sampling feature maps by summarizing the presence of features in patches of the feature map. Two common pooling methods are average pooling and max pooling that summarize the average presence of a feature and the most activated presence of a feature respectively.
+
+Fully connected layer（全連接層）：
+
+_Form the last few layers in the network._
+
+The input to the fully connected layer is the output from the final Pooling or Convolutional Layer, which is flattened and then fed into the fully connected layer.
